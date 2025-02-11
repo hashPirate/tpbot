@@ -59,7 +59,7 @@ const discordBot = new Discord.Client({
   restTimeOffset: 0
 });
 
-discordBot.login('MTIzMjQ1MDExODc2NzA4NzY0Ng.GcHDuK.PAKKlpmXhJyl2olSUEL4R4RFqf1k6Jag-V7i2I');
+discordBot.login('');
 
 discordBot.on('ready', () => {
   console.log(`Discord bot logged in as ${discordBot.user.tag}`);
