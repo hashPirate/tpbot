@@ -4,7 +4,7 @@ const axios = require('axios');
 const Discord = require('discord.js');
 const { Vec3 } = require('vec3');
 
-const webhookUrl = 'https://discord.com/api/webhooks/1232449849883103292/L8VoX5ZiYVbNwjOKfe1goVQ25ASlcDgGAgyWxPoprUb1XfzTwk4SJZpZ6g1CzC4sDUgt';
+const webhookUrl = '';
 const namesniped = fs.readFileSync('bot.txt', 'utf8').trim().split('/');
 const username = namesniped[0];
 const password = namesniped[1];
